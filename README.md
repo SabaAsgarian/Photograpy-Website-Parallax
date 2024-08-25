@@ -14,7 +14,7 @@
 
 
 
-- [Demo Project][(https://sabaasgarian.github.io/Photograpy-Website-Parallax/))]
+- [Demo Project](https://sabaasgarian.github.io/Photograpy-Website-Parallax/)
 
 - Developed by Saba Asgarian
 
