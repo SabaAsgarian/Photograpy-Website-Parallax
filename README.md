@@ -2,7 +2,7 @@
  Photograpy-Website-Parallax
 
 
-
+![p](https://github.com/user-attachments/assets/bbe17395-7641-469a-807e-1f6036f4e6e9)
 
 
 
