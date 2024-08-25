@@ -612,8 +612,8 @@ video {
   left: 0px;
 }
 
-.left-\[2\%\] {
-  left: 2%;
+.left-\[95\%\] {
+  left: 95%;
 }
 
 .top-0 {
@@ -834,51 +834,51 @@ video {
   background-color: transparent;
 }
 
-.bg-\[url\(\'\.\.\/img\/1\.jpg\'\)\] {
-  background-image: url('../img/1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/11\.jpg\'\)\] {
-  background-image: url('../img/11.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/eighth\.jpg\'\)\] {
+.bg-eighth {
   background-image: url('../img/eighth.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/fifth\.jpg\'\)\] {
+.bg-fifth {
   background-image: url('../img/fifth.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/first\.jpg\'\)\] {
+.bg-first {
   background-image: url('../img/first.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/fourth\.jpg\'\)\] {
+.bg-fourth {
   background-image: url('../img/fourth.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/ninth\.jpg\'\)\] {
+.bg-last {
   background-image: url('../img/ninth.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/second\.jpg\'\)\] {
-  background-image: url('../img/second.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/seventh\.jpg\'\)\] {
-  background-image: url('../img/seventh.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/sixth\.jpg\'\)\] {
-  background-image: url('../img/sixth.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/tenth\.jpg\'\)\] {
+.bg-ninth {
   background-image: url('../img/tenth.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/third\.jpg\'\)\] {
+.bg-one {
+  background-image: url('../img/1.jpg');
+}
+
+.bg-second {
+  background-image: url('../img/second.jpg');
+}
+
+.bg-seventh {
+  background-image: url('../img/seventh.jpg');
+}
+
+.bg-sixth {
+  background-image: url('../img/sixth.jpg');
+}
+
+.bg-tenth {
+  background-image: url('../img/11.jpg');
+}
+
+.bg-third {
   background-image: url('../img/third.jpg');
 }
 
