@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family:fr ;
+    src: url(../font/FuturaCyrillicBook.ttf);
+}
+@font-face {
+    font-family:fb ;
+    src: url(../font/FuturaCyrillicBold.ttf);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}

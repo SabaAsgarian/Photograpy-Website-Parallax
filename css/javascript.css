@@ -1,0 +1,37 @@
+.ham {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: center;
+    cursor: pointer; /* add a pointer cursor to the hamburger menu */
+    >span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: white;
+    margin: 5px;
+    transition: 0.5s;
+    z-index: 999;
+    
+    &:nth-of-type(1){
+      top: -30%;
+    }
+    &:nth-of-type(2){
+        top: -10%;
+    }
+    &:nth-of-type(3){
+        top: 10%;
+    }
+    }
+  }
+  .head_text{
+    opacity: 0;
+  }
+  
