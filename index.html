@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="css/javascript.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main id="_main" class="w-[100%] h-[100vh] overflow-y-scroll transition-all duration-700 ease-in-out" >
+        <div class="w-full flex justify-start items-center fixed bottom-[2%] left-[94%] z-50">
+            <figure  class="w-[50px] h-[50px] overflow-hidden bg-[#ffcc00] flex justify-center items-center"><img id="mute" data-mute ='off' class="w-[80%] h-[80%] object-contain" src="img/mute_off.png" alt=""></figure>
+        </div>
+
+        <section id="holder" class="w-full ">
+            <section id="main_page" class="w-full h-[100vh] relative left-0 bg-[url('../img/1.jpg')] bg-cover bg-fixed">
+                <div class="w-full flex justify-end items-center">
+                    <figure id="logo" class="w-[100px] overflow-hidden"><img class="w-full h-full object-cover" src="img/pmsigsmlBLACK+copy.png" alt=""></figure>
+                </div>
+                <div class="w-full h-[70%] flex flex-wrap justify-center content-between *:font-fr">
+                    <div class="w-full flex flex-wrap justify-start content-center mx-32">
+                        <h1 class="flex w-fit  h-fit text-[30px] text-white uppercase">peter</h1>
+                        <h2 class="flex w-fit  h-fit text-[30px] text-[#ffcc00]">mckinnon</h2>
+                        <p class="w-full text-start text-[15px] text-white">Welcome To My Photo Gallery Website</p>
+                    </div>
+                    <button id="btn1" class="w-[250px] h-[60px]  text-[#ffcc00] text-[20px] border-2 border-[#ffcc00] hover:bg-[#ffcc00] hover:text-white transition-all duration-300">CLICK TO SEE MORE</button>
+                </div>
+                <nav id="nav" class="w-[100px] fixed top-[20%] left-0 z-50 hidden  ml-5">
+                    <ul class="w-full flex flex-wrap justify-start content-between">
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='intro'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='first'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='second'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='third'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='fourth'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='fifth'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='sixth'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='seventh'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='eighth'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='ninth'></button></li>
+                        <li class="w-full h-[40px]  text-center flex items-center justify-center text-white transition-all duration-700"><button data-name ='last'></button></li>
+                    </ul>
+                </nav>
+                <audio data-status="off" id="startsound" autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/a.ogg" type="audio/ogg">
+                    <source src="music/a.mp3" type="audio/mp3">
+                    
+                </audio>
+            </section>
+
+            <div id="intro" class="w-full h-[100vh] relative left-0 first bg-center bg-cover bg-fixed top-0 bg-[url('../img/first.jpg')]">
+                <audio id="introsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/b.ogg" type="audio/ogg">
+                    <source src="music/b.mp3" type="audio/mp3">
+                </audio>
+                <div class="bg-black h-[15%] md:bg-transparent w-full md:h-[20%] row justify-around flex items-center p-[5%]">
+                    <figure class="w-[20%] h-full">
+                        <img class="w-full md:w-[80%] lg:w-[40%] " src="img/pmsigsmlBLACK+copy.png" alt="">
+                    </figure>
+                    <ul class="hidden lg:flex row w-[80%] h-full *:font-fr justify-end *:mx-[3%] *:cursor-pointer *:text-[14px] men">
+                        <li class="hover:text-[#FFFFFF66] text-white">Shop</li>
+                        <li class="hover:text-[#FFFFFF66] text-white">About</li>
+                        <li class="hover:text-[#FFFFFF66] text-white">Contact</li>
+                    </ul>
+                    
+                </div>
+                <div class="w-full h-[80%]"></div>
+
+            </div>
+
+            <div id="first"
+                class="w-full h-[100vh] relative left-0 bg-[url('../img/second.jpg')] bg-bottom bg-cover bg-fixed flex justify-center items-center">
+                <audio id="firstsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/c.ogg" type="audio/ogg">
+                    <source src="music/c.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">LIGHTROOM PRESETS</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea]  hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold text-[15px] lg:text-[18px]">SHOP
+                            PRESETS <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="second"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/third.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="secondsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/d.ogg" type="audio/ogg">
+                    <source src="music/d.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">LIMITED EDITION PRINTS</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">SHOP
+                            PRINTS <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="third"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/fourth.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="thirdsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/e.ogg" type="audio/ogg">
+                    <source src="music/e.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">MOTION GRAPHICS</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">SHOP
+                            MGFX PACKS <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="fourth"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/fifth.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="fourthsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/f.ogg" type="audio/ogg">
+                    <source src="music/f.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1
+                        class="w-full font-fb font-extrabold text-white text-[20px] lg:text-[50px] flex justify-center items-center ">
+                        PETE’S PIRATE LIFE</h1>
+                    <div class="row flex w-full justify-center ">
+                        <button
+                            class="hover:bg-[#a28718ea] text-[15px] px-[4%] py-[2%] bg-[#ffcc00]  text-black font-fb font-extrabold lg:text-[18px]">LIMITED
+                            EDITION DROPS</button>
+                    </div>
+                </div>
+            </div>
+            <div id="fifth"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/sixth.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="fifthsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/g.ogg" type="audio/ogg">
+                    <source src="music/g.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">YOUTUBE</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">
+                            SEE MORE VIDS
+                            <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="sixth"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/seventh.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="sixthsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/h.ogg" type="audio/ogg">
+                    <source src="music/h.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">Gallery</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">
+                            CHECK MORE PICS
+                            <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="seventh"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/eighth.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="seventhsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/i.ogg" type="audio/ogg">
+                    <source src="music/i.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">Exibitions</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">
+                            CHECK EVENTS
+                            <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="eighth"
+            class="w-full h-[100vh] row relative left-0 bg-[url('../img/tenth.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+            <audio id="eigthsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                <source src="music/j.ogg" type="audio/ogg">
+                <source src="music/j.mp3" type="audio/mp3">
+            </audio>
+            <div
+                class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">PREVIEW PIECES</h1>
+                <div class="row flex w-full ">
+                    <button
+                        class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">
+                        CHECK ARTS
+                        <i class=" icon-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="ninth"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/11.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="ninthsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/k.ogg" type="audio/ogg">
+                    <source src="music/k.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1 class="w-full font-fr text-white text-[20px] lg:text-[50px] flex ">GALLERY's ADDRESS</h1>
+                    <div class="row flex w-full ">
+                        <button
+                            class="hover:text-[#a28718ea] text-[15px] hover:border-[#ffcc004c] bg-transparent border-b-4 border-[#ffcc00] text-[#ffcc00] font-fb font-extrabold lg:text-[18px]">
+                            CHECK ADDRESS
+                            <i class=" icon-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="last"
+                class="w-full h-[100vh] row relative left-0 bg-[url('../img/ninth.jpg')] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <audio id="lastsound" loop  autoplay controlsList="nodownload" *:controlsList="nodownload">
+                    <source src="music/l.ogg" type="audio/ogg">
+                    <source src="music/l.mp3" type="audio/mp3">
+                </audio>
+                <div
+                    class="head_text row w-[80%] h-[30%] flex justify-center items-center absolute top-[40%]   transition-all duration-700 ">
+                    <h1
+                        class="w-full font-fb font-extrabold text-white text-[20px] lg:text-[50px] flex justify-center items-center ">
+                        VENUES</h1>
+                    <div class="row flex w-full justify-center ">
+                        <button
+                            class="hover:bg-[#a28718ea] text-[15px] px-[4%] py-[2%] bg-[#ffcc00]  text-black font-fb font-extrabold lg:text-[18px]">CHECK
+                            THE VENUES</button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer"
+                class="w-full h-[100vh] row relative left-0 bg-[#f6f6f6] bg-cover  bg-center bg-fixed flex justify-center items-center">
+                <div
+                    class=" row w-[80%] h-full flex justify-center items-start absolute  transition-all duration-700">
+                    <h2
+                        class="w-full font-fr text-black text-[20px] lg:text-[50px] flex justify-center items-center ">
+                        Newsletter</h2>
+                        <p class="font-fr font-extralight w-full flex justify-center items-center">Get notified when new projects drop.</p>
+                    <div class="row flex w-full justify-center ">
+                        <input type="email" placeholder="  E-mail Address">
+                        <button
+                            class="hover:bg-black hover:text-white text-[15px] px-[4%] py-[1%] bg-transparent border-2 border-black  text-black font-fb font-extrabold lg:text-[18px]">Subscribe</button>
+                    </div>
+                    <h1
+                        class="w-full font-fb font-extrabold text-black text-[20px] lg:text-[50px] flex justify-center items-center ">
+                       Follow Coded By Saba Asgarian</h1>
+                       <ul class="w-full ps-[20px] flex flex-wrap  *:text-black text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px] justify-center   items-center *:mx-[8px]">
+                        <li><a class="flex py-[4px] px-[4px]   justify-center items-center " href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1 "></i></a></li>
+                        <li><a class="flex py-[4px] px-[4px]   justify-center items-center " href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-3"></i></a></li>
+                        <li><a class="flex py-[4px] px-[4px]   justify-center items-center " href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class=" icon-instagram-1"></i></a></li>
+                        <li> <a class="flex py-[4px] px-[4px]   justify-center items-center " href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
+                        <li> <a class="flex py-[4px] px-[4px]   justify-center items-center " href="mailto:computer.sabaa@gmail.com"><img class="h-[10%] flex w-[35%]" src="img/PPL_SKULL_LOGO.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+
+        </section>
+    </main>
+</body>
+<script>
+        const mute_pics = ['mute_off.png','mute_on.png']
+        let _main = document.getElementById('_main')
+        let main_page = document.getElementById('main_page')
+        let _holder = document.getElementById('holder')
+        let sliders = document.querySelectorAll('#holder>div')
+        let _nav = document.getElementById('nav')
+        let start_btn = document.getElementById('btn1')
+        let btns = document.querySelectorAll('#nav>ul>li>button')
+        let _sounds =  document.querySelectorAll('#holder audio')
+        let playnow = document.getElementById('playnow')
+        let mute = document.getElementById('mute')
+        let head_texts = document.querySelectorAll('.head_text')
+        let count = 1
+        let turn = 0
+        _holder.style.height = (715*13)+'px'
+        _main.style.overflow = 'hidden'
+        main_page.style.height = 0
+        sliders[0].style.top = 0
+        sliders.forEach((val)=>{
+            let _offsettop = val.offsetTop
+            val.setAttribute('data-offsettop',_offsettop)
+            
+        })
+        main_page.style.height = '714px'
+
+        start_btn.addEventListener('click',(e)=>{
+            _main.style.overflowY = 'scroll'
+            main_page.style.transition = '2s'
+            main_page.style.height = 0
+            _sounds[0].play()
+            _main.scrollTop = 5
+            setTimeout(() => {
+                _nav.style.display = 'flex'
+            }, '1000');
+            style_btns_and_texts(5)
+
+            _main.addEventListener('scroll',(e)=>{
+                let st = e.target.scrollTop
+                let sh = e.target.scrollHeight
+               
+                _nav.style.display = 'flex'
+                btn_reset()
+                check_sliders(st)
+                check_btns(st)
+                style_btns_and_texts(st)
+                check_music()    
+            })
+        })
+
+        function style_btns_and_texts(st){
+            console.log(turn);
+            if(((st+100>(sliders[1].getAttribute('data-offsettop'))) && (st+100<(sliders[2].getAttribute('data-offsettop')))) || ((st+100>(sliders[3].getAttribute('data-offsettop'))) && (st+100<(sliders[4].getAttribute('data-offsettop')))) || ((st+100>(sliders[6].getAttribute('data-offsettop'))) && (st+100<(sliders[7].getAttribute('data-offsettop')))) || ((st+100>(sliders[10].getAttribute('data-offsettop')))&&(st+100<(sliders[11].getAttribute('data-offsettop'))))){
+                btns.forEach((c)=>{
+                    c.parentElement.style.color = 'black'
+                })
+            
+            }
+            else{
+                btns.forEach((c)=>{
+                    c.parentElement.style.color = 'white'
+                })
+        
+            }
+            
+            sliders.forEach((val,iii)=>{
+                if(st+300>(val.getAttribute('data-offsettop'))){
+                    btn_reset()
+                    head_texts[iii].style.opacity ='1'
+                    btns[iii].parentElement.style.scale = '1.3'
+                    btns[iii].parentElement.style.fontWeight = 'bold' 
+                }
+            })
+        }
+
+        function btn_reset(){
+            btns.forEach((j)=>{
+                j.parentElement.style.scale ='1'
+                j.parentElement.style.fontWeight = 'normal'
+            })
+            
+        }
+
+        function check_btns(st){
+            btns.forEach((v ,indd)=>{
+                v.addEventListener('click',(e)=>{
+                    sliders.forEach((m)=>{
+                        if(m.getAttribute('id') == (e.target.getAttribute('data-name'))){
+                            turn = indd
+                            _main.scrollTop = m.getAttribute('data-offsettop')
+                        }
+                        
+                    })
+                })
+            })
+        }
+
+        function check_sliders(st){
+            sliders.forEach((val ,ind)=>{
+            
+                if(st>(val.getAttribute('data-offsettop'))){
+                    turn = ind
+                    val.style.top = (st-(val.getAttribute('data-offsettop')))+'px'
+                }
+                else{
+                    val.style.top = 0
+                }
+            })
+        }
+
+        function check_music(){
+            _sounds.forEach((val)=>{
+                val.pause()
+            })
+            if((mute.getAttribute('data-mute'))=='off'){
+                _sounds[turn+1].play()
+            }
+        }
+
+        mute.addEventListener('click',(e)=>{
+            if((e.target.getAttribute('data-mute'))=='off'){
+                mute.src = 'img/'+mute_pics[1]
+                e.target.setAttribute('data-mute','on')
+            }
+            else{
+                mute.src = 'img/'+mute_pics[0]
+                e.target.setAttribute('data-mute','off')
+            }
+            check_music()
+        })
+
+
+    </script>
+</script>
+</html>
