@@ -5,7 +5,6 @@
 
 
 
-![lg](https://github.com/user-attachments/assets/86541bd8-a8e3-41f8-a3a3-16b3573a2893)
 
 
 
@@ -15,7 +14,7 @@
 
 
 
-- [Demo Project](https://sabaasgarian.github.io/Login-Regx/)
+- [Demo Project][(https://sabaasgarian.github.io/Login-Regx/](https://sabaasgarian.github.io/Photograpy-Website-Parallax/))
 
 - Developed by Saba Asgarian
 
